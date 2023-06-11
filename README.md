@@ -5,27 +5,40 @@
 
 ---
 
-Bem-vindo ao desafio proposto [TDC
+Bem-vindo ao desafio do nosso API Gateway proposto no [TDC
 Innovation](https://thedevconf.com/tdc/2023/innovation/)! Neste desafio, você
-terá a oportunidade de explorar o Hotmart Developers, um hub de API público
-fornecido pela Hotmart Company. Essa plataforma está disponível no endereço
+terá a oportunidade de explorar o Hotmart Developers, um hub de API públicas
+gerenciado pela [Hotmart](https://hotmart.com). A plataforma de APIs está
+disponível no endereço
 [developers.hotmart.com](https://developers.hotmart.com).
 
 
 Antes de participar do desafio, é necessário criar uma conta no Hotmart, caso
-você ainda não tenha uma. Após iniciar sua conta, você deverá criar uma
-credencial e solicitar um endpoint específico. Esse endpoint retornará o número
-de pessoas envolvidas na edição do TDC Innovation.
+você ainda não tenha uma. Nessa
+[página](https://developers.hotmart.com/docs/pt-BR/start/about/) tem todos os
+detalhes sobre como começar na plataforma. Após iniciar sua conta, você deverá
+criar uma credencial e fazer uma requisição para o endpoint que retorna algumas
+informaaões sobre o _TDC Innovation_.
 
-Após obter essa informação, sua tarefa será enviar um e-mail para
+```
+curl --location --request GET 'https://developers.hotmart.com/events/api/v1/:event_name/:event_year:/:event_edition' \
+	--header 'Content-Type: application/json' \
+	--header 'Authorization: Bearer :access_token'
+```
+
+Apenas reforÇando que o nome do evento é _TDC_ e estamos falando da edição
+_Innovation_ do ano corrente. Após obter essa informação, sua tarefa consiste
+em  enviar um e-mail para
 [vagner.clementino@hotmart.com](mailto:vagner.clementino@hotmart.com) com o
 conteúdo do payload do endpoint. Suas requisições serão validadas nos logs do
-Hotmart Developers. Os três primeiros participantes a enviar as requisições
-corretas receberão um kit personalizado como prêmio.
+da própria da plataforma. Os três primeiros participantes a enviar retorno
+(payload) da requisição receberão um kit personalizado e um desconto para o
+evento [Hot ‘N Code
+Conference](https://campaign.hotmart.com/hotncode-conference).
 
-Não perca tempo! Acesse 0
-[developers.hotmart.com](https://developers.hotmart.com), crie sua conta,
-solicite seu endpoint e envie o e-mail com as informações solicitadas. Boa
-sorte!
+Não perca tempo! Acesse o
+[developers.hotmart.com](https://developers.hotmart.com), crie sua conta, faça
+a requisição para o endpoint indicado e envie o e-mail com as informações
+solicitadas. Boa sorte!
 
 --
