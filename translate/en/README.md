@@ -27,8 +27,8 @@ task is to send an email to
 [vagner.clementino@hotmart.com](mailto:vagner.clementino@hotmart.com) with the
 content of the endpoint's payload. Your requests will be validated in the logs
 of the platform itself. The first three participants to send back the request's
-payload will receive a personalized kit and a discount for the [Hot 'N Code
-Conference](https://campaign.hotmart.com/hotncode-conference) event.
+payload will receive a personalized kit and a discount for the [Hot ‘N Code
+Conference](http://hotm.art/hnc-2023?src=2088&utm_source=2088) event.
 
 Don't waste time! Access
 [developers.hotmart.com](https://developers.hotmart.com), create your account,

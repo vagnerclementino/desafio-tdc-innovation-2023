@@ -34,7 +34,7 @@ conteúdo do payload do endpoint. Suas requisições serão validadas nos logs d
 da própria da plataforma. Os três primeiros participantes a enviar retorno
 (payload) da requisição receberão um kit personalizado e um desconto para o
 evento [Hot ‘N Code
-Conference](https://campaign.hotmart.com/hotncode-conference).
+Conference](http://hotm.art/hnc-2023?src=2088&utm_source=2088).
 
 Não perca tempo! Acesse o
 [developers.hotmart.com](https://developers.hotmart.com), crie sua conta, faça
