@@ -9,7 +9,7 @@ disponible en
 
 Antes de participar en el reto, debe crear una cuenta en Hotmart, si
 si aún no tiene una. En esa
-[página](https://developers.hotmart.com/docs/pt-BR/start/about/) tienes todos los
+[página](https://developers.hotmart.com/docs/es/start/about/) tienes todos los
 detalles sobre cómo empezar en la plataforma. Una vez que haya iniciado su cuenta, se le pedirá que
 crear una credencial y realizar una solicitud a **cualquier** punto final de lectura (`GET`) de nuestra plataforma, por ejemplo, "Historial de ventas", "Resumen de ventas", "Obtener suscripciones". Posiblemente los endpoints
 no devuelvan datos, lo importante es que reciba un resultado correcto (código de estado 200).
